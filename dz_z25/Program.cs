@@ -5,7 +5,7 @@ int AdegreeB(int A, int B)
     int result = 1;
 
     for (var index = 1; index <= B; index++)
-        result = result*A;
+        result = result * A;
 
     return result;
 
@@ -17,4 +17,9 @@ Console.WriteLine("Введите число, для возведения А в 
 int B = int.Parse(Console.ReadLine()!);
 
 int result = AdegreeB(A, B);
-Console.WriteLine(result);
+if (B < 0)
+    Console.WriteLine("Степень должна быть натураньным числом");
+else if (B == 0)
+    Console.WriteLine("1");
+else
+    Console.WriteLine(result);
