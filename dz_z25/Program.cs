@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿int AdegreeB(int A, int B)
-=======
 int AdegreeB(int A, int B)
->>>>>>> a69519d47d4e7a53530525165bb36e0c89ba9238
 {
     int result = 1;
 
