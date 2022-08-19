@@ -1,14 +1,11 @@
-﻿
-int AdegreeB(int A, int B)
+﻿int AdegreeB(int A, int B)
 {
-
     int result = 1;
 
     for (var index = 1; index <= B; index++)
         result = result * A;
 
     return result;
-
 }
 
 Console.WriteLine("Введите число:");
